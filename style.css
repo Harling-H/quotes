@@ -1,0 +1,44 @@
+body{
+  background-color: #F1D4D4;
+  margin: 0px;
+}
+
+.title{
+  display: flex;
+  color: #F1D4D4;
+  background-color: #484C7F;
+  font-family: 'Playfair Display', serif;
+  margin: 0px;
+  font-size: 75px;
+  justify-content: center;
+}
+
+section{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.button{
+  font-family: 'PT Serif', serif;
+  border-radius: 30%;
+  color: white;
+  background-color: #AC8DAF;
+  font-size: 40px;
+  padding: 15px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .title{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .button{
+    font-size: 20px;
+    display: block;
+    padding: 5px;
+  }
+}
