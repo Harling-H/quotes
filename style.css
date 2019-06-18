@@ -28,7 +28,12 @@ section{
   padding: 15px;
 }
 
-
+p{
+  color: #484C7F;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  width: 40px;
+}
 
 @media screen and (max-width: 800px) {
   .title{
